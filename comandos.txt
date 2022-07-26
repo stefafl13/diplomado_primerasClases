@@ -1,0 +1,18 @@
+git init --> Se hace por proyecto
+git add . --> Se hace por cambios dentro del proyecto
+
+git config --global user.name "name"
+git config --global user.email email@dominio.com
+git config --list
+git status
+
+git commit -m "mensaje"
+git remote add origin url
+git push origin branch
+
+git branch --> Ver ramas que se han creado e identificar en donde estoy ubicado
+git branch name
+git checkout -b name
+git checkout nameBranch
+git branch -d nameBranch --> Eliminar rama
+
